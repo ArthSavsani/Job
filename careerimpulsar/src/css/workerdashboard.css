@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #39424e;
+}
+/* .navbar-brand,
+.nav-link {
+  color: #b7c9cc;
+  text-decoration: none !important;
+}
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #ffffff;
+  text-decoration: none !important;
+} */
+/* .toggleit {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+} */
+.nav-item {
+  cursor: pointer;
+}

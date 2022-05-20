@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Open+Sans:wght@300&display=swap");
+.home {
+  /*  border: 2px solid red;*/
+  background-color: #f7f7f7e0;
+  height: 100vh;
+}
+.header {
+  /*border: 2px solid blue;*/
+  padding: 10px;
+}
+.header_container {
+  /*border: 2px solid yellow;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.header_logo {
+  /*/*border: 2px solid orange;*/
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  cursor: pointer;
+}
+.header_action {
+  /*/*border: 2px solid purple;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.login {
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  margin-right: 5px;
+}
+.signup {
+  border: 2px solid;
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.details {
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.details_description {
+  /*border: 2px solid blue;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+.details_description_title {
+  color: #738f93;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: -0.520013px;
+  line-height: 54.0014px;
+}
+.details_part {
+  /*/*border: 2px solid dodgerblue;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.details_description_company,
+.details_description_seekers_login {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.details_description_company_title,
+.details_description_seekers_title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #031414fd;
+}
+.details_description_company_login {
+  border: none;
+  text-decoration: none;
+  background-color: #1ba94c;
+  margin: 10px;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px #1ba94c;
+}
+.details_description_seekers_login {
+  border: 2px solid #1ba94c;
+  text-decoration: none;
+  background-color: transparent;
+  color: #1ba94c;
+  margin: 10px;
+  padding: 5px;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px #1ba94c;
+}
+
+.details_img {
+  /*border: 3px solid red;*/
+  height: 450px;
+  width: 600px;
+  padding: 40px;
+}
+.footer {
+  font-size: 12px;
+  color: #738f93;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#forgot_password_image {
+  height: 200px;
+  width: 300px;
+}
+.details_description_company_deacription,
+.details_description_seekers_deacription {
+  margin: 10px;
+}

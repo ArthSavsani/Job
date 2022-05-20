@@ -1,0 +1,68 @@
+/* .freelance_listing_page {
+  border: 2px solid red;
+} */
+.freelance_listing_page_view {
+  margin: 20px;
+  padding: 20px;
+  /* border: 3px solid blue; */
+}
+.freelance_listing_page_jobs {
+  /* border: 4px solid orange; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.freelance_info_view_company_name {
+  font-weight: 700;
+  font-size: 25px;
+}
+.freelance_info {
+  box-shadow: 0 2px 4px -1px rgb(58 31 31 / 20%), 0 1px 10px 0 rgb(0 0 0 / 12%),
+    0 4px 5px 0 rgb(0 0 0 / 14%);
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.freelance_info_view_type_location {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.freelance_info_view_location {
+  margin-left: 20px;
+}
+.freelance_info_view_other_details_label {
+  font-weight: 700;
+}
+#freelance_info_view_apply_button {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  border: none;
+  outline: none !important;
+  text-decoration: none;
+  box-shadow: 0 2px 4px -1px rgb(58 31 31 / 20%), 0 1px 10px 0 rgb(0 0 0 / 12%),
+    0 4px 5px 0 rgb(0 0 0 / 14%);
+  color: #ffffff;
+  background-color: #1ba94c;
+  font-weight: 700;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  .freelance_info {
+    display: flex;
+    flex-direction: column;
+  }
+}

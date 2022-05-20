@@ -1,0 +1,58 @@
+.signup_nevigator {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f3f7f7;
+}
+.signup_nevigator_type1,
+.signup_nevigator_type2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signup_nevigator_type1_view,
+.signup_nevigator_type2_view {
+  margin: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px -1px rgb(58 31 31 / 20%), 0 1px 10px 0 rgb(0 0 0 / 12%),
+    0 4px 5px 0 rgb(0 0 0 / 14%);
+  cursor: pointer;
+  border-radius: 20px;
+}
+.signup_nevigator_type1_image_view,
+.signup_nevigator_type2_image_view {
+  height: 180px;
+  width: 180px;
+  border-radius: 100% !important;
+}
+.signup_nevigator_type1_text_view,
+.signup_nevigator_type2_text_view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-weight: 500;
+}
+.signup_nevigator_type1_link,
+.signup_nevigator_type1_link:hover,
+.signup_nevigator_type1_link:focus,
+.signup_nevigator_type1_link:active,
+.signup_nevigator_type2_link,
+.signup_nevigator_type2_link:hover,
+.signup_nevigator_type2_link:focus,
+.signup_nevigator_type2_link:active {
+  text-decoration: none;
+  color: inherit;
+}
+@media only screen and (max-width: 720px) {
+  .signup_nevigator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
